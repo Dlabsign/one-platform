@@ -80,7 +80,7 @@
             const alarmSound = document.getElementById('alarmSound');
             
             const modes = {
-                pomodoro: { time: 1 * 2, color: 'bg-red-500/10', btnColor: 'bg-red-500', textColor: 'text-red-400', btnBorder: 'border-red-500/30', btnHoverBorder: 'hover:border-red-500/50', hoverText: 'hover:text-red-300' },
+                pomodoro: { time: 25 * 60, color: 'bg-red-500/10', btnColor: 'bg-red-500', textColor: 'text-red-400', btnBorder: 'border-red-500/30', btnHoverBorder: 'hover:border-red-500/50', hoverText: 'hover:text-red-300' },
                 short: { time: 5 * 60, color: 'bg-teal-500/10', btnColor: 'bg-teal-500', textColor: 'text-teal-400', btnBorder: 'border-teal-500/30', btnHoverBorder: 'hover:border-teal-500/50', hoverText: 'hover:text-teal-300' },
                 long: { time: 15 * 60, color: 'bg-blue-500/10', btnColor: 'bg-blue-500', textColor: 'text-blue-400', btnBorder: 'border-blue-500/30', btnHoverBorder: 'hover:border-blue-500/50', hoverText: 'hover:text-blue-300' }
             };
